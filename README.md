@@ -16,12 +16,13 @@ FactBuffer – это система на Go для буферизации и п
 
 ```
 myproject/ 
-├── cmd/ │ 
-└── main.go 					
-	├── internal/ 
-	│ └── factbuffer/ 	
-	│ └── factbuffer.go
-	└── go.mod
+├── cmd/
+│	└──main.go
+│			
+├── internal/ 
+│ 	└── factbuffer/ 	
+│ 		└── factbuffer.go
+└── go.mod
 ```
 
 - **cmd/main.go** – содержит функцию `main()`, которая инициализирует буфер, генерирует тестовые факты и останавливает буфер после их обработки.
